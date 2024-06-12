@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Directory Tree</title>
+</head>
+<body>
+    <h1>Directory Tree</h1>
+    <form method="post">
+        <label for="path">Path:</label>
+        <input type="text" name="path" id="path" value="{{ path }}">
+        <input type="submit" value="Display Tree">
+    </form>
+    <pre>{{ output }}</pre>
+</body>
+</html>
